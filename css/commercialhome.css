@@ -153,7 +153,7 @@ p.about{
 /* End About Page */
 
 /* Responsive - medium design */
-@media screen and (min-width: 817px){
+@media only screen and (min-width: 817px){
 
  /* Medium nav */
   h3{
