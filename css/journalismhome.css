@@ -26,15 +26,15 @@ header{
 img#button{
   display: inline-block;
   opacity: 1;
-  width: 20px;
+  width: 5%;
   padding: 5px;
   float: left;
   vertical-align: baseline;
 }
 h1{
   display: inline-block;
-  width: 92%;
-  font-size: 120%;
+  width: 90%;
+  font-size: 100%;
   font-weight: bold;
   color: #ffffff;
   text-align: left;
@@ -42,7 +42,7 @@ h1{
 }
 h2{
   display: inline-block;
-  width: 92%;
+  width: 90%;
   font-size: 80%;
   color: #ffffff;
   text-align: left;
