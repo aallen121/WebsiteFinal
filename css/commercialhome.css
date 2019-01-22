@@ -245,6 +245,12 @@ p.about{
     opacity: 1;
     margin-bottom: 6%;
   }
+  img.portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
   details{
   display: none;
   width: 70%;
@@ -373,6 +379,12 @@ p.about{
   img{
     opacity: 1;
     margin-bottom: 6%;
+  }
+  img.portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
   }
   details{
   display: none;
