@@ -63,7 +63,10 @@ h3:first-child{
 h3:last-child{
   padding-bottom: 2%;
 }
-
+  a#seemore{
+    color: #000000;
+    opacity: 1;
+  }
 ul{
   float:left;
   display: inline-block;
@@ -163,6 +166,10 @@ p.about{
   }
   h3:first-child{
     margin-top: 0px;
+  }
+ a#seemore{
+    color: #000000;
+    opacity: 1;
   }
   ul{
     display: inline-block;
@@ -297,6 +304,10 @@ p.about{
   }
   h3:first-child{
     margin-top: 0px;
+  }
+  a#seemore{
+    color: #000000;
+    opacity: 1;
   }
   ul{
     display: inline-block;
