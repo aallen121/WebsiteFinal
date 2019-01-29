@@ -150,19 +150,20 @@ details{
 
 /* About Page */
 img.aboutimg{
-  display: inline-block;
-  width: 40%;
-  float: left;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
   border-style: solid;
   border-color: #ffffff;
   border-width: medium;
 }
 p.about{
   display: inline-block;
-  width: 50%;
+  width: 100%;
   color: #ffffff;
-  padding: 20px;
-  float: right;
   line-height: 1.5;
 }
 /* End About Page */
@@ -281,6 +282,25 @@ p.about{
   font-size: 75%;
   }
 /* medium images */
+  
+  /* About Page */
+img.aboutimg{
+  display: inline-block;
+  width: 40%;
+  float: left;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: medium;
+}
+p.about{
+  display: inline-block;
+  width: 50%;
+  color: #ffffff;
+  padding: 20px;
+  float: right;
+  line-height: 1.5;
+}
+/* End About Page */
 
 }
 /* End Responsive - medium design */
@@ -400,6 +420,24 @@ p.about{
   font-size: 80%;
   }
 /* large images */
-
+  
+/* About Page */
+img.aboutimg{
+  display: inline-block;
+  width: 40%;
+  float: left;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: medium;
+}
+p.about{
+  display: inline-block;
+  width: 50%;
+  color: #ffffff;
+  padding: 20px;
+  float: right;
+  line-height: 1.5;
+}
+/* End About Page */
 }
 /* End Responsive - large design */
