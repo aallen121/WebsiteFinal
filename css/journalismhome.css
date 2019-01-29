@@ -48,7 +48,7 @@ h2{
   text-align: left;
   float: right;
 }
-div{
+div.header{
   display: inline-block;
   width: 100%;
   background-color: #000000;
@@ -242,7 +242,7 @@ p.about{
     text-align: right;
     float: right;
   }
-  div{
+  div.header{
     display: inline-block;
     width: 16%;
     background-color: #000000;
@@ -283,21 +283,26 @@ p.about{
   }
 /* medium images */
   
-  /* About Page */
+/* About Page */
 img.aboutimg{
-  display: inline-block;
+  display: block;
   width: 40%;
   float: left;
+  margin-top: 5%;
   border-style: solid;
   border-color: #ffffff;
   border-width: medium;
 }
-p.about{
+div.container{
   display: inline-block;
   width: 50%;
+  margin-top: 5%;
+  float: right;
+}
+p.about{
+  display: inline-block;
   color: #ffffff;
   padding: 20px;
-  float: right;
   line-height: 1.5;
 }
 /* End About Page */
@@ -379,7 +384,7 @@ p.about{
     text-align: center;
     float: right;
   }
-  div{
+  div.header{
     display: inline-block;
     width: 15%;
     background-color: #000000;
@@ -423,19 +428,24 @@ p.about{
   
 /* About Page */
 img.aboutimg{
-  display: inline-block;
+  display: block;
   width: 40%;
   float: left;
+  margin-top: 5%;
   border-style: solid;
   border-color: #ffffff;
   border-width: medium;
 }
-p.about{
+div.container{
   display: inline-block;
   width: 50%;
+  margin-top: 5%;
+  float: right;
+}
+p.about{
+  display: inline-block;
   color: #ffffff;
   padding: 20px;
-  float: right;
   line-height: 1.5;
 }
 /* End About Page */
