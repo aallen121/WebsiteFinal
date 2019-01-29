@@ -36,7 +36,7 @@ h2{
   text-align: left;
   float: right;
 }
-div{
+div.header{
   display: inline-block;
   width: 100%;
   background-color: #ffffff;
@@ -231,7 +231,7 @@ p.about{
     text-align: right;
     float: right;
   }
-  div{
+  div.header{
     display: inline-block;
     width: 16%;
     position: fixed;
@@ -369,7 +369,7 @@ p.about{
     text-align: center;
     float: right;
   }
-  div{
+  div.header{
     display: inline-block;
     width: 15%;
     position: fixed;
@@ -416,13 +416,19 @@ img.aboutimg{
   display: inline-block;
   width: 40%;
   float: left;
+  margin-top: 5%;
   border-style: solid;
   border-color: #ffffff;
   border-width: medium;
 }
+div.container{
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin-top: 5%;
+}
 p.about{
   display: inline-block;
-  width: 40%;
   color: #000000;
   padding: 20px;
   float: right;
